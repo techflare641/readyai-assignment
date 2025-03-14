@@ -1,0 +1,49 @@
+.integration-container {
+  padding: 96px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.integration-image {
+  padding-left: 32px;
+}
+
+.integration-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.integration-text-header {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.integration-text-subheader {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.integration-text-description {
+  color: #8F8F8F;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.integration-buttons-api-docs {
+  border-radius: 24px;
+  color: transparent;
+  padding-top: 12px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 12px;
+  border: 1px solid #E5E7EB;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 600;
+  width: fit-content;
+}

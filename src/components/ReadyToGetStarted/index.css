@@ -1,0 +1,49 @@
+.ready-to-start {
+  background-color: #8F8F8F1A;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ready-to-start .content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.ready-to-start h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ready-to-start p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #f2f2f2;
+}
+
+.ready-to-start.content.content-left {
+  justify-content: start;
+}
+
+.ready-to-start.content.content-right {
+  
+}

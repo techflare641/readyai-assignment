@@ -1,0 +1,116 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.dashboard-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 112px;
+  width: 0px;
+  flex-grow: 1;
+  
+}
+
+.dashboard-images {
+  width: 0px;
+  flex-grow: 1;
+}
+
+.dashboard-contents-tags {
+  border: 1px solid #464646;
+  display: flex;
+  flex-direction: row;
+  padding: 2px 2px;
+  gap: 20px;
+  border-radius: 18px;
+  width: fit-content;
+}
+
+.dashboard-contents-tags-tag {
+  background: #FFFFFF1A;
+  padding: 2px 10px;
+  color: #EFF5FF;
+  font-weight: 400;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 27px;
+  vertical-align: middle;
+  border-radius: 16px;
+  text-transform: uppercase;
+}
+
+.dashboard-contents-tags-try {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.dashboard-contents-tags-try-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  background: transparent;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #8F8F8F;
+}
+
+.arrow-image {
+  width: 16px;
+  height: 16px;
+}
+
+.dashboard-unlock-text {
+  font-weight: 600;
+  font-size: 56px;
+  color: white;
+  text-align: left;
+}
+
+.dashboard-unlock-description {
+  color: #8F8F8F;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.dashboard-buttons-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  gap: 12px;
+}
+
+.dashboard-buttons-get-started-free {
+  border-radius: 24px;
+  background-color: #FDFDFD;
+  padding-top: 12px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.dashboard-buttons-api-docs {
+  border-radius: 24px;
+  color: transparent;
+  padding-top: 12px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 12px;
+  border: 1px solid #E5E7EB;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 600;
+}

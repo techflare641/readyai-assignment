@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1232px;
+  height: 58px;
+  max-height: 58px;
+  min-height: 58px;
+  width: 100%;
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  color: #EFF5FF;
+  font-size: 18px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  color: #EFF5FFB1;
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,28 @@
+.apiaction-container {
+  display: flex;
+  flex-direction: row; 
+  padding: 96px 80px;
+}
+
+.apiaction-textsection {
+  flex-grow: 1;
+}
+
+.apiaction-textsection-header {
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.apiaction-textsection-description {
+  color: #8F8F8F;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.apiaction-picture {
+  flex-grow: 1;
+}
