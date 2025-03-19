@@ -2,11 +2,18 @@
   padding: 96px 80px;
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 60px;
+
+  background-image: url('/images/Vector.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .integration-image {
   padding-left: 32px;
+  width: 650px;
+  height: 460px;
 }
 
 .integration-text-section {

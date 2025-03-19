@@ -5,23 +5,28 @@
   text-align: center;
   border-radius: 8px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
 }
 
 .ready-to-start .content {
-  max-width: 700px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .ready-to-start h2 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
 .ready-to-start p {
   font-size: 16px;
+  color: #8F8F8F;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
@@ -40,10 +45,6 @@
   background-color: #f2f2f2;
 }
 
-.ready-to-start.content.content-left {
-  justify-content: start;
-}
-
-.ready-to-start.content.content-right {
-  
+.content-left {
+  text-align: left;
 }

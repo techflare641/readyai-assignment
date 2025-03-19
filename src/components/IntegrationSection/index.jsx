@@ -4,7 +4,7 @@ import "./index.css";
 const IntegrationSection = () => {
   return (
     <div className='integration-container'>
-      <img src="/images/code-snippet.png" className='integration-image' />
+      <img src="/images/code-snippet.png" width="704" height="517" className='integration-image' />
       <div className='integration-text-section'>
         <div className='integration-text-header'>
           Integration with the Personas API
@@ -30,7 +30,7 @@ const IntegrationSection = () => {
         <div className='integration-text-description'>
           With the API responses, you can seamlessly integrate characters into your application. 
         </div>
-        <div className='integration-buttons-api-docs'>API Docs</div>
+        <div className='integration-buttons-api-docs'>View API Docs</div>
       </div>
     </div>
   )

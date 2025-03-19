@@ -14,22 +14,24 @@
   font-weight: 400;
   color: #8F8F8F;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dataset-box-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 64px;
-  padding-bottom: 64px;
   background-color: #8F8F8F1A;
   gap: 16px;
   margin-top: 64px;
   width: 800px;
   padding: 32px 64px;
-  margin: auto;
-  margin-top: 64px;
+  padding-bottom: 54px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dataset-box {

@@ -1,6 +1,8 @@
 .footer-container {
   padding: 40px 20px;
   text-align: left;
+  max-width: 1028px;
+  margin: auto;
 }
 
 .highlight-line {
@@ -27,7 +29,7 @@
 }
 
 .footer-text {
-  font-size: 18px;
+  font-size: 14px;
   color: #EFF5FFB1;
 }
 
@@ -39,8 +41,8 @@
 }
 
 .links-group h3 {
-  color: #FCFDFFEF;
-  font-size: 18px;
+  color: #EFF5FFEF;
+  font-size: 14px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -54,5 +56,5 @@
   margin-bottom: 10px;
   text-decoration: none;
   color: #EFF5FFB1;
-  font-size: 16px;
+  font-size: 14px;
 }

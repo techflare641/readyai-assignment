@@ -23,10 +23,10 @@ const Dashboard = () => {
           Introducing the Personas API – Your Gateway to AI-Powered Character Interactions
         </div>
         <div className='dashboard-buttons-container'>
-          <div className='dashboard-buttons-get-started-free'>
+          <button className='dashboard-buttons-get-started-free'>
             Get Started Free
-            <img src="/public/next-right.png" />
-          </div>
+            <img src="/images/next-right.png" />
+          </button>
           <div className='dashboard-buttons-api-docs'>API Docs</div>
         </div>
       </div>

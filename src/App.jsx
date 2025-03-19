@@ -14,13 +14,17 @@ function App() {
   return (
     <>
       <Navbar />
-      <Dashboard />
-      <DataSetSection />
-      <ApiActionSetion />
-      <IntegrationSection />
-      <EndlessApplicationSection />
-      <FaqSection />
-      <ReadyToGetStarted />
+      <div className='app-container'>
+        <div className='app-ellipse-image'></div>
+        <div className='app-ellipse-image-2'></div>
+        <Dashboard />
+        <DataSetSection />
+        <ApiActionSetion />
+        <IntegrationSection />
+        <EndlessApplicationSection />
+        <FaqSection />
+        <ReadyToGetStarted />
+      </div>
       <Footer />
     </>
   )

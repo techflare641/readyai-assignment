@@ -10,7 +10,10 @@ const ReadyToGetStarted = () => {
           <p>Dive into our comprehensive documentation and start querying our bank of characters.</p>
         </div>
         <div className='content-right'>
-          <button className="cta-button">Get Started Free</button>
+          <button className='dashboard-buttons-get-started-free'>
+            Get Started Free
+            <img src="/images/next-right.png" />
+          </button>
         </div>
       </div>
     </div>
